@@ -1,0 +1,109 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+html,
+body{
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: #fff;
+
+  height: 100%;
+}
+.wrapper{
+  margin:0 auto;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+.wrap{
+  width: 900px;
+  margin:0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+a{
+  text-decoration: none;
+  display:block;
+  color: black;
+}
+header{
+    padding: 50px 0 50px 0;
+    //background-color: #777;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline;
+    float: right;
+}
+nav a{
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-right: none;
+}
+nav li:first-child{
+    border-right:solid 1px black ;
+}
+nav a:hover{
+    background-color: grey;
+}
+
+h1{
+    font-size: 50px;
+    line-height:30px;
+    text-align: center;
+}
+li{
+  list-style-type: none;
+}
+.category{
+
+  width: 150px;
+  float: left;
+
+}
+.category input{
+  text-align: left;
+  border: solid 1px black;
+  padding: 5px 15px;
+  background-color: #fff;
+  width: 100%;
+}
+.category a{
+    text-align: left;
+    border: solid 1px black;
+    padding: 5px 15px;
+}
+.category a:hover{
+    background-color: grey;
+}
+.category input:hover{
+    background-color: grey;
+}
+
+footer{
+  background-color: #777;
+  padding: 50px 0 50px 0;
+  text-align:center;
+  line-height: 1.5;
+
+  flex: 0 0 auto;
+}
+
+footer a{
+  display: inline-block;
+}
