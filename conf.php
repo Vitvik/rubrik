@@ -1,8 +1,8 @@
 <?php
 
 $host = 'localhost';
-$username = 'vitvik0_ei';
-$pass = '!qaz2wsx';
+$username = 'root';
+$pass = '';
 $dbname = 'task';
 
 ?>
